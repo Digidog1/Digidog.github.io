@@ -1,0 +1,188 @@
+  /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;1,400&display=swap'); */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,700;0,800;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.bg-orange{
+    background-color: #ea9751!important;
+}
+p {
+    /* font-family: "Poppins variant3", Tofu; */
+    font-family: cursive;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+.banner-title{
+    color: #fff!important;
+    font-size: 44px;
+    font-weight: 700;
+}
+.title{
+    font-family:"Poppins";
+    font-size: 76px;
+    font-weight: 800;
+    color: #fff;
+}
+.title1 {
+    color: #fff!important;
+}
+.bottom-bar{
+    height:50px;
+}
+h2.title-2 {
+    font-size: 24px!important;
+    font-weight: 500;
+    color: #ea9751;
+}
+.banner{
+    /* background-image: url('/Images/Carousel1.jpg'); */
+    background-color: #EA9750;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+img.banner-image {
+    height: 580px!important;
+    transform: rotate(25deg)!important;
+    width: auto!important;
+}
+svg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+path {
+    color: #fdc496;
+}
+path:hover{
+    color:#ea9751;
+}
+.bottom-bar svg {
+    width: 20px;
+    height: 20px;
+    margin-bottom: unset;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+button svg{
+    width:25px;
+    height:25px;
+    margin-bottom:unset!important;
+}
+button path{
+    color:#fff
+}
+button:hover path{
+    color:#ea9751;
+}
+.carousel-item {
+    background: #ea9751;
+    height: 300px;
+}
+img.headshot {
+    width: 100px;
+    height: auto!important;
+    border-radius: 50%;
+}
+.card-header {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    color: #ea9751;;
+}
+.price {
+    font-size: 36px;
+    font-weight: 800;
+}
+img.logo {
+    width: 125px;
+    height:auto!important;
+}
+.btn-outline-success{
+    border-color: #ea9751;
+    color:#EA9750;
+}
+.btn-outline-success:hover {
+    background-color: #EA9750;
+    border-color: #ea9751;
+}
+li.list-group-item {
+    /* font-family: "Poppins variant3", Tofu; */
+    font-family: cursive;
+}
+@media(max-width:1200px){
+    .banner {
+        height: auto!important;
+    }
+    .title {
+        font-size: 52px;
+    }
+    img.banner-image {
+        height: 270px!important;
+    }
+    .carousel-item {
+        height: 350px;
+    }
+}
+@media(max-width:800px){
+    .p-5 {
+        padding: 10px!important;
+    }
+    .banner {
+        padding:75px 0px!important;
+        height: auto!important;
+    }
+    .title {
+        font-size: 40px!important;
+        text-align: center;
+    }
+    img.banner-image {
+        height: 250px!important;
+        transform: unset!important;
+    }
+    .column-on-mobile {
+        flex-direction: column!important;
+        justify-content: center!important;
+        align-items: center!important;
+    }
+    .carousel-item {
+        height: 430px;
+    }
+    .col-lg-4{
+        width: 100%;
+    }
+    .title-2{
+        font-size: 22px!important;
+    }
+}
+@media(max-width:650px){
+    .p-5 {
+        padding: 25px!important;
+    }
+    .banner {
+        padding:75px 0px!important;
+        height: auto!important;
+    }
+    .title {
+        font-size: 28px;
+        text-align: center;
+    }
+    img.banner-image {
+        height: 250px!important;
+        transform: unset!important;
+    }
+    .column-on-mobile {
+        flex-direction: column!important;
+        justify-content: center!important;
+        align-items: center!important;
+    }
+    .carousel-item {
+        height: 430px;
+    }
+    .col-lg-4{
+        width: 100%;
+    }
+}
