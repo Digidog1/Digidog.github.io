@@ -9,8 +9,8 @@
     background-color: #ea9751!important;
 }
 p {
-    /* font-family: "Poppins variant3", Tofu; */
-    font-family: cursive;
+    font-family: "Poppins variant3", Tofu;
+    /* font-family: cursive; */
 }
 .navbar-expand-lg .navbar-collapse {
     justify-content: end;
@@ -110,8 +110,8 @@ img.logo {
     border-color: #ea9751;
 }
 li.list-group-item {
-    /* font-family: "Poppins variant3", Tofu; */
-    font-family: cursive;
+    font-family: "Poppins variant3", Tofu;
+    /* font-family: cursive; */
 }
 @media(max-width:1200px){
     .banner {
