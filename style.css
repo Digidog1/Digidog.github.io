@@ -10,6 +10,7 @@
 }
 p {
     font-family: 'Poppins', sans-serif;
+    font-weight: 100!important;
     /* font-family: cursive; */
 }
 .navbar-expand-lg .navbar-collapse {
@@ -111,6 +112,7 @@ img.logo {
 }
 li.list-group-item {
     font-family: 'Poppins', sans-serif;
+    font-weight: 100!important;
     /* font-family: cursive; */
 }
 @media(max-width:1200px){
