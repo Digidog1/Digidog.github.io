@@ -1,5 +1,6 @@
   /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;1,400&display=swap'); */
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;1,400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +8,9 @@
 }
 .bg-orange{
     background-color: #ea9751!important;
+}
+.bg-orange-2{
+    background-color: #ff601f;
 }
 p {
     font-family: 'Poppins', sans-serif;
@@ -18,6 +22,8 @@ p {
 }
 a.navbar-brand.text-white {
     font-weight: 800!important;
+    font-family: 'Montserrat'!important;
+    font-size: 36px!important;
 }
 .banner-title{
     color: #fff!important;
@@ -39,11 +45,11 @@ a.navbar-brand.text-white {
 h2.title-2 {
     font-size: 24px!important;
     font-weight: 500;
-    color: #ea9751;
+    color: #198754!important
 }
 .banner{
     /* background-image: url('/Images/Carousel1.jpg'); */
-    background-color: #EA9750;
+    /* background-color: #EA9750; */
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
@@ -59,10 +65,11 @@ svg {
     margin-bottom: 15px;
 }
 path {
-    color: #fdc496;
+    color: #198754;
 }
 path:hover{
-    color:#ea9751;
+    /* color:#ea9751; */
+    color:#26b472;
 }
 .bottom-bar svg {
     width: 20px;
@@ -80,10 +87,10 @@ button path{
     color:#fff
 }
 button:hover path{
-    color:#ea9751;
+    color:#198754;
 }
 .carousel-item {
-    background: #ea9751;
+    background: #26b472;
     height: 300px;
 }
 img.headshot {
@@ -95,7 +102,7 @@ img.headshot {
     font-size: 28px;
     font-weight: bold;
     font-family: 'Poppins';
-    color: #ea9751;;
+    color: #198754;
 }
 .price {
     font-size: 36px;
@@ -108,19 +115,16 @@ img.logo {
     width: 125px;
     height:auto!important;
 }
-.btn-outline-success{
+/* .btn-outline-success{
     border-color: #ea9751;
     color:#EA9750;
 }
 .btn-outline-success:hover {
     background-color: #EA9750;
     border-color: #ea9751;
-}
+} */
 li.list-group-item {
     font-family: 'Poppins', sans-serif;
-    /* color: #EA9750; */
-    /* font-weight: 100!important; */
-    /* font-family: cursive; */
 }
 @media(max-width:1200px){
     .banner {
