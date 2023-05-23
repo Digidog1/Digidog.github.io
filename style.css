@@ -96,7 +96,10 @@ img.headshot {
 }
 .price {
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 800!important;
+}
+li.list-group-item.price {
+    font-weight: 800!important;
 }
 img.logo {
     width: 125px;
@@ -112,7 +115,7 @@ img.logo {
 }
 li.list-group-item {
     font-family: 'Poppins', sans-serif;
-    font-weight: 100!important;
+    /* font-weight: 100!important; */
     /* font-family: cursive; */
 }
 @media(max-width:1200px){
