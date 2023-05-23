@@ -16,6 +16,9 @@ p {
 .navbar-expand-lg .navbar-collapse {
     justify-content: end;
 }
+a.navbar-brand.text-white {
+    font-weight: 800!important;
+}
 .banner-title{
     color: #fff!important;
     font-size: 44px;
@@ -115,6 +118,7 @@ img.logo {
 }
 li.list-group-item {
     font-family: 'Poppins', sans-serif;
+    color: #EA9750;
     /* font-weight: 100!important; */
     /* font-family: cursive; */
 }
